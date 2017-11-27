@@ -1,4 +1,10 @@
 # DavidStar
+
+-
+-
+WATCH IN RAW MODE TO SEE NORMAL VIEW OF THE PSEUDO CODE 
+-
+-
 Implemented Algorithm for solving a given cipher using mathematical equations system. 
 
 /**
