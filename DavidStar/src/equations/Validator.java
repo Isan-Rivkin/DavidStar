@@ -65,4 +65,16 @@ public class Validator implements IValidator
 			//System.out.println("sum= "+eq.sum() + " -> " + eq);
 		});
 	}
+	@Override
+	public List<IEquation> printAll() {
+		System.out.println("raw equations:");
+		equations.forEach((e)->{
+			System.out.println(e.printParamsOnly());
+		});
+		System.out.println("filled equations:");
+		equations.forEach((e)->{
+			System.out.println(e);
+		});
+		return equations;
+	}
 }

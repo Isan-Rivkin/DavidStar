@@ -8,4 +8,5 @@ public interface IValidator
 {
 	public boolean validate(Combination a , Combination b);
 	public void setEquations(Equation ...equations);
+	public List<IEquation> printAll();
 }
