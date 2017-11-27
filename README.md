@@ -18,14 +18,14 @@ given a callback - find all combinations that support the callback
 State B:
 Incase A is True try a combination with B 
 
+Input/Output:
 
-Pseudo Code:
+- init = public void init(IValidator validator, CombinationsCreator combinator, PermutationsCreator permutator);-
+- validator = holds all the equations and evaluates a given orderd input of combination
+- input =  public Combination decipher(Func a_predicate,Bank initial_bank,int a_len)
+- a_predicate = callback to filter results
 
-// init = public void init(IValidator validator, CombinationsCreator combinator, PermutationsCreator permutator);
-// validator = holds all the equations and evaluates a given orderd input of combination
-//input =  public Combination decipher(Func a_predicate,Bank initial_bank,int a_len)
-//a_predicate = callback to filter results
-
+Pseudo-Code:
 
 A = allPermutations(initial_bank,a_predicate)
 while not found:
