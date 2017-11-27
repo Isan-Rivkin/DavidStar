@@ -27,17 +27,17 @@ Input/Output:
 
 Pseudo-Code:
 
-A = allPermutations(initial_bank,a_predicate)
-while not found:
-  foreach a_permutation in A:
-    b_permutation = (initial_bank - a_permutation)
-    list_a_combinations = allCombinations(a_permutation)
-    list_b_combinations = allCombinations(b_permutation)
-    foreach a in list_a_combinations:
-      foreach b in list_b_combinations
-        found = validateEquations(a,b)
-        if(found)
-          return combination(a,b)
-  return null        
+-A = allPermutations(initial_bank,a_predicate)
+-while not found:
+-  foreach a_permutation in A:
+-    b_permutation = (initial_bank - a_permutation)
+-    list_a_combinations = allCombinations(a_permutation)
+-    list_b_combinations = allCombinations(b_permutation)
+-    foreach a in list_a_combinations:
+-      foreach b in list_b_combinations
+-        found = validateEquations(a,b)
+-        if(found)
+-          return combination(a,b)
+-  return null        
   
 */
