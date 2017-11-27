@@ -1,6 +1,7 @@
 # DavidStar
 Implemented Algorithm for solving a given cipher using mathematical equations system. 
 
+/**
 Algorithm Definition:
 give:
 - Set of equations.
@@ -39,3 +40,4 @@ while not found:
           return combination(a,b)
   return null        
   
+*/
